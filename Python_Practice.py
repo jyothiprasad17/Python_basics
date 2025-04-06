@@ -1,4 +1,4 @@
-# Converting a Integer into decimal
+'''# Converting a Integer into decimal
 import decimal
 i=10
 print(decimal.Decimal(i))
@@ -24,5 +24,13 @@ for i in name1:
     if i in vowels:
         count +=1
 print(count)
+'''
+#counting Consonants in a given word
 
-
+vowels=['a','e','i','o','u','A','E','I','O','U']
+name2=input()
+count=0
+for i in name2:
+    if i not in vowels:
+        count = count+1
+print(count)
