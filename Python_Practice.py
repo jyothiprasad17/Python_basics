@@ -1,8 +1,28 @@
-print("hello world!!")
+# Converting a Integer into decimal
+import decimal
+i=10
+print(decimal.Decimal(i))
+print(type(decimal.Decimal(i)))
 
-1
-1
-1
-1
-1
-1
+# Converting a string into decimal
+
+s='12345'
+print(decimal.Decimal(s))
+print(type(decimal.Decimal(s)))
+
+# Reversing a string using extended slicing technique
+
+name='jyothi prasad'
+print(name[::-1])
+
+#counting vowels in a given word
+
+vowels=['a','e','i','o','u','A','E','I','O','U']
+name1=input()
+count=0
+for i in name1:
+    if i in vowels:
+        count +=1
+print(count)
+
+
